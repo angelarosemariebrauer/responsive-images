@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Responsive Images Examples</title>
     <!-- TO DO: Add your name to the meta author tag -->
-    <meta name="author" content="">
+    <meta name="author" content="Angela Brauer">
     <meta name="description" content="Code examples showing how to add responsive images to a website for art direction or for resolution switching">
 
     <link rel="stylesheet" href="styles.css">
@@ -25,6 +25,11 @@
 
 
             <!-- TO DO: Add the responsive images for art direction here -->
+            <picture>
+                <source media="(max-width="600)" width="485" height="432" srcset="images/sm.png">
+                <source media="(max-width="999">
+                <source media="(min-width="1000" width="1440" height="810" srcset="images/lg.jpeg">
+            </picture>
 
         </section>
 
@@ -32,6 +37,11 @@
             <h2>Responsive Images for Resolution Switching</h2>
 
             <!-- TO DO: Add the responsive images for resolution switching here -->
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/small-res.jpg">
+                <source media="(max-width: 1200px)" srcset="images/medium-res.jpg">
+                <img src="images/large-res.jpg" alt="Responsive image for resolution switching">
+            </picture>
 
         </section>
     </main>
